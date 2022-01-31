@@ -32,6 +32,30 @@ header a{
 
 /* inicio main*/
 
+.contenedor
+{
+  width: 100%;
+  height: auto;
+  display: flex ;
+  flex-wrap: wrap;
+  text-align: center;
+  
+}
+
+.cont1
+{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.cont2
+{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+
 /* transformacion en img que lleva a link de productos */
 .img-prod:hover{
     transform: scale(0.7);
@@ -40,13 +64,13 @@ header a{
     margin-top: 50px;
     font-style: italic;
     font-weight: lighter;
-    font-size: 30px;
     border-color: rgb(250, 184, 108);
     width: 300px;
     height: 200px;
     border-width: 8px;
     border-style: dotted;
-    padding: 30px 500px;
+    padding: 10px 500px;
+    text-align: center;
 }
 main img{
     margin: 100px 150px 100px 150px;
